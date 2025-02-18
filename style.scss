@@ -144,7 +144,7 @@ $tertiary: #13294b;
       font-weight: inherit;
       font-size: 16px;
       text-align: center;
-      padding: 0 16px 32px;
+      padding: 16px 16px 32px;
     }
 
     &__footer-container {
@@ -359,12 +359,12 @@ $tertiary: #13294b;
     &__list {
       padding-top: 30px;
       padding-bottom: 30px;
+      padding-left: 5px;
       background-color: $primary;
       font-family: $font-hurme-bold, sans-serif;
       font-weight: 700;
       color: #fff;
       list-style: none;
-      padding-left: 0;
     }
 
     &__item {
@@ -862,8 +862,8 @@ $tertiary: #13294b;
 
       &__container {
         background-color: unset;
-        margin-top: -110px;
-        padding-top: 120px;
+        margin-top: -150px;
+        padding-top: 150px;
       }
 
       &__steps {
@@ -912,7 +912,7 @@ $tertiary: #13294b;
         left: 0;
 
         &--1 {
-          top: 67%;
+          top: 75%;
           left: 25%;
         }
 
@@ -1093,7 +1093,7 @@ $tertiary: #13294b;
 
     .es-eco {
       &__text {
-        max-width: 72%;
+        max-width: 78%;
         font-size: 24px;
         left: 10%;
         bottom: 4%;
@@ -1240,7 +1240,7 @@ $tertiary: #13294b;
       }
 
       &__tastes-single-description {
-        font-size: 24px;
+        font-size: 21px;
       }
     }
 
