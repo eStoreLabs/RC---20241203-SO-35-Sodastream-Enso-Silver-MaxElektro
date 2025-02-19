@@ -1,24 +1,24 @@
 @font-face {
   font-family: "HurmeGeometric3-Black";
-  src: url("./static/fonts/HurmeGeometricSans3-Black.woff") format("woff");
+  src: url("./fonts/HurmeGeometricSans3-Black.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "HurmeGeometric3-Bold";
-  src: url("./static/fonts/HurmeGeometricSans3-Bold.woff") format("woff");
+  src: url("./fonts/HurmeGeometricSans3-Bold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "HurmeGeometric3-Regular";
-  src: url("./static/fonts/HurmeGeometricSans3-Regular.woff") format("woff");
+  src: url("./fonts/HurmeGeometricSans3-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "HurmeGeometric3-Light";
-  src: url("./static/fonts/HurmeGeometricSans3-Light.woff2") format("woff2");
+  src: url("./fonts/HurmeGeometricSans3-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
@@ -581,7 +581,7 @@
     font-size: 40px;
   }
   #es-rc-content.es-rc .es-natural {
-    background: url(./static/img/es-natural-bg.png) center center no-repeat;
+    background: url(./img/es-natural-bg.png) center center no-repeat;
     background-size: cover;
   }
   #es-rc-content.es-rc .es-natural__list {
@@ -605,11 +605,11 @@
 }
 @media screen and (min-width: 800px) {
   #es-rc-content.es-rc .es-kv__container {
-    background: url(./static/img/kv-bg.png) center center no-repeat;
+    background: url(./img/kv-bg.png) center center no-repeat;
     background-size: cover;
   }
   #es-rc-content.es-rc .es-kv__footer-container {
-    background: url(./static/img/kv-footer-bg.png) center center no-repeat;
+    background: url(./img/kv-footer-bg.png) center center no-repeat;
     background-size: cover;
     min-height: 400px;
     padding-top: 150px;
@@ -702,7 +702,7 @@
     font-size: 50px;
   }
   #es-rc-content.es-rc .es-art {
-    background: url(./static/img/art-bg.png) center center no-repeat;
+    background: url(./img/art-bg.png) center center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 2;
@@ -942,7 +942,7 @@
     font-size: 60px;
   }
   #es-rc-content.es-rc .es-natural__list {
-    margin-top: 135px;
+    margin-top: 100px;
     max-width: 43%;
     font-size: 23px;
   }
